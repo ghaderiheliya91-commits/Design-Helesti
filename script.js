@@ -143,3 +143,27 @@ const footer = document.querySelector("footer p");
 const year = new Date().getFullYear();
 
 footer.innerHTML = `© ${year} Design Helesti`;
+
+// Glitter falling effect
+
+for(let i = 0; i < 35; i++){
+
+    let glitter = document.createElement("div");
+
+    glitter.className = "glitter";
+
+
+    glitter.style.left = Math.random() * 100 + "vw";
+
+
+    glitter.style.animationDuration =
+    (Math.random() * 3 + 3) + "s";
+
+
+    glitter.style.animationDelay =
+    Math.random() * 5 + "s";
+
+
+    document.body.appendChild(glitter);
+
+    }
