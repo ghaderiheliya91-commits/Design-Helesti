@@ -92,3 +92,64 @@ footer{
     background:#d4af37;
     color:white;
 }
+nav{
+
+    position:fixed;
+
+    top:0;
+
+    width:100%;
+
+    background:rgba(255,255,255,.95);
+
+    backdrop-filter:blur(10px);
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 50px;
+
+    box-shadow:0 2px 15px rgba(0,0,0,.08);
+
+    z-index:1000;
+
+}
+
+.nav-logo{
+
+    font-size:28px;
+
+    color:#b8860b;
+
+    font-weight:bold;
+
+}
+
+.nav-links a{
+
+    text-decoration:none;
+
+    margin:0 15px;
+
+    color:#444;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:#d4af37;
+
+}
+
+header{
+
+    padding-top:140px;
+
+}
