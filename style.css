@@ -78,6 +78,9 @@ section{
     align-items:center;
     justify-content:center;
     text-align:center;
+    position:relative;
+
+}
 
 }
 
@@ -273,7 +276,18 @@ footer{
 }
 
 
+/* Logo */
 
+.logo-img{
+
+    width:70px;
+    height:70px;
+    object-fit:contain;
+    position:absolute;
+    top:20px;
+    right:30px;
+
+}
 /* Mobile */
 
 @media(max-width:768px){
